@@ -1,0 +1,5 @@
+Assignment: "Write, in a file called mario.c in your ~/Dropbox/pset1 directory, a program that recreates this half-pyramid using hashes (#) for blocks. However, to make things more interesting, first prompt the user for the half-pyramid’s height, a non-negative integer no greater than 23. (The height of the half-pyramid pictured above happens to be 8.) If the user fails to provide a non-negative integer no greater than 23, you should re-prompt for the same again. Then, generate (with the help of printf and one or more loops) the desired half-pyramid. Take care to align the bottom-left corner of your half-pyramid with the left-hand edge of your terminal window, as in the sample output below, wherein underlined text represents some user’s input."
+
+Usage: ./mario
+	Input the desired height as a number no less than 0 and no greater than 23. 
+	A mario style tower will be output to the console. 

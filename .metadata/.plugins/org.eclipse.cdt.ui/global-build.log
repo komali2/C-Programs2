@@ -1,0 +1,16 @@
+20:52:45 **** Rebuild of configuration Debug for project hello ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+..\hello.c:1:2: error: invalid preprocessing directive #incluce
+ #incluce <stdio.h>
+  ^
+..\hello.c: In function 'main':
+..\hello.c:5:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Hello, world!\n");
+  ^
+..\hello.c:5:2: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+20:54:42 **** Incremental Build of configuration Debug for project hello ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+gcc -o hello.exe hello.o 
+Info: Nothing to build for hello
